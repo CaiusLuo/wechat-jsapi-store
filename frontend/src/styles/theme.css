@@ -1,0 +1,48 @@
+:root {
+  --color-bg: #f7f4ec;
+  --color-card: #ffffff;
+  --color-primary: #1f3a5f;
+  --color-primary-soft: #e8eef6;
+  --color-accent: #8a6f3d;
+  --color-accent-soft: #fbf8ef;
+  --color-success: #2f6b4f;
+  --color-text-main: #1f2933;
+  --color-text-body: #344054;
+  --color-text-secondary: #667085;
+  --color-text-muted: #98a2b3;
+  --color-border: #e5e0d6;
+  --shadow-card: 0 8px 20px rgb(31 41 51 / 4%);
+  --radius-card: 16px;
+
+  --van-primary-color: var(--color-primary);
+  --van-success-color: var(--color-success);
+  --van-warning-color: var(--color-accent);
+  --van-button-primary-background: var(--color-primary);
+  --van-button-primary-border-color: var(--color-primary);
+  --van-button-border-radius: 14px;
+}
+
+.h5-page {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  background: var(--color-bg);
+}
+
+.h5-shell {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 520px;
+  min-width: 0;
+  margin: 0 auto;
+  padding: calc(20px + env(safe-area-inset-top)) 16px calc(40px + env(safe-area-inset-bottom));
+}
+
+.h5-card {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}

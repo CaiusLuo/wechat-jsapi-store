@@ -1,0 +1,37 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/wechat_store_test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: test_only_user
+    password: test_only_password
+
+wxpay:
+  app-id: test_only_wechat_pay_app_id
+  mch-id: test_only_merchant_id
+  api-v3-key: test_only_api_v3_key_32_chars_x
+  private-key-path: /tmp/test-only-apiclient-key.pem
+  merchant-serial-number: test_only_merchant_serial
+  notify-url: http://localhost/api/pay/notify
+
+wx:
+  mp:
+    app-id: test_only_wechat_mp_app_id
+    secret: test_only_wechat_mp_secret
+    token: test_only_wechat_mp_token
+    aes-key: test_only_wechat_mp_aes_key
+    oauth-callback-url: http://localhost/api/wx/oauth/callback
+
+h5:
+  auth:
+    token-secret: test_only_h5_token_secret_32_chars
+
+app:
+  admin:
+    username: test_only_admin
+    password: test_only_admin_password
+    token-secret: test_only_admin_token_secret_32_chars
+
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false

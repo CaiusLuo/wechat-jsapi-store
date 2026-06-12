@@ -1,0 +1,62 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Production and local configuration
+application-prod.yml
+application-prod.yaml
+application-prod.properties
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# Certificates and private keys
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+certs/
+
+# Runtime files
+uploads/
+logs/
+.runtime/
+*.log
+*.pid
+
+# Database and backup files
+*.sql.gz
+*.dump
+*.bak
+*.backup
+backups/
+
+# Build and release artifacts
+target/
+node_modules/
+dist/
+coverage/
+release/
+*.jar
+*.zip
+*.tar
+*.tar.gz
+
+# Test artifacts
+test-results/
+playwright-report/
+__screenshots__/
+
+# Package caches
+.pnpm-store/
+.m2/
+
+# IDE and OS
+.DS_Store
+.idea/
+.vscode/
+*.iml
