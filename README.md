@@ -63,7 +63,7 @@ pnpm dev
 
 | 变量 | 默认值 | 说明 |
 | --- | --- | --- |
-| `SPRING_PROFILES_ACTIVE` | `dev` | Spring 环境 |
+| `SPRING_PROFILES_ACTIVE` | `dev` | Spring 运行环境（dev/prod） |
 | `DB_HOST` | `127.0.0.1` | 数据库地址 |
 | `DB_PORT` | `3306` | 数据库端口 |
 | `DB_NAME` | `wechat_store` | 数据库名 |
