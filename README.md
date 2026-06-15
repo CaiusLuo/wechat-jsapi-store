@@ -247,8 +247,3 @@ pnpm run test:e2e
 - The sample Nginx configuration does not provision TLS certificates.
 - Uploaded files are stored on the local filesystem unless the implementation is extended.
 - MySQL 5.6 verification depends on an external database or Docker environment.
-
-## 许可证状态
-
-License is pending confirmation from the project rights holder.
-Until a license is added, the source code is viewable but no reuse license is granted.
