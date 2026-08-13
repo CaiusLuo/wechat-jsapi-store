@@ -2,6 +2,9 @@
 
 微信 JSAPI 商城示例项目，包含 H5 端、管理员后台、微信公众号 OAuth 登录、微信支付 JSAPI 下单和回调处理。
 
+## 需求手稿
+<img width="2731" height="1320" alt="image" src="https://github.com/user-attachments/assets/ddd12b95-d2e9-48e2-bbc3-e67ce7ac8454" />
+
 ## 功能
 
 - H5 商品浏览、详情、下单、支付、订单列表和订单详情
